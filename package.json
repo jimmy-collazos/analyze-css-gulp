@@ -1,0 +1,39 @@
+{
+  "name": "analyze-css-gulp",
+  "version": "0.0.0",
+  "description": "A plugin for Gulp",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": {
+    "name": "Jimmy Collazos",
+    "email": "jimmy.collazos@gmail.com",
+    "url": "https://github.com/jimmy-collazos"
+  },
+  "repository": "jimmy-collazos/analyze-css-gulp",
+  "scripts": {
+    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "dependencies": {
+    "analyze-css": "^0.12.1",
+    "gulp-util": "~2.2.0",
+    "through2": "*"
+  },
+  "devDependencies": {
+    "coveralls": "*",
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.2.2",
+    "event-stream": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "should": "~2.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
