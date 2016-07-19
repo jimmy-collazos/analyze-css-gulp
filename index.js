@@ -1,19 +1,43 @@
 var through = require('through2'),
   gutil = require('gulp-util'),
-  analyzer = require('analyze-css');
+  analyzer = require('analyze-css'),
+  fs = require('fs'),
+  path = require('path');
 
-module.exports = function (param) {
+var metricFilterMap = function(offender) {
+    var position = offender.position && offender.position.start;
+    return offender.message + (position ? ' @ ' + position.line + ':' + position.column : '');
+  };
+var metricFilter = function(metricName) {
+    this.offenders[metricName] = this.offenders[metricName].map(metricFilterMap);
+  };
+
+module.exports = function (options) {
   'use strict';
-
-  // if necessary check for required param(s), e.g. options hash, etc.
-  if (!param) {
-    throw new gutil.PluginError('analyze-css', 'No param supplied');
+  if (typeof options !== 'undefined' && Object.prototype.toString.call(options) !== '[object Object]') {
+    throw new gutil.PluginError('analyze-css', 'Options is not a Object');
   }
-
-  // see 'Writing a plugin'
-  // https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/README.md
+  options = options || {};
   function analizeCss(file, enc, callback) {
-    /*jshint validthis:true*/
+    var _analyzeAndChangeContent = function(err, result) {
+        file.contents = new Buffer(JSON.stringify(result, null, 2));
+        callback(null, file);
+      },
+      _saveErrorCallback = function(err) {
+        if(err) {
+            return console.log(err);
+        }
+      },
+      _analyzeAndSaveReport = function(err, result) {
+        var filename = path.basename(file.path, '.css'),
+          filepath = path.join(options.outDiretory, filename + '.json');
+
+        if (typeof result.offenders !== 'undefined') {
+          Object.keys(result.offenders).forEach(metricFilter, result);
+        }
+        fs.writeFile(filepath, JSON.stringify(result, null, 2), _saveErrorCallback);
+        callback(null, file);
+      };
 
     // Do nothing if no contents
     if (file.isNull()) {
@@ -22,28 +46,16 @@ module.exports = function (param) {
     }
 
     if (file.isStream()) {
-
-      // http://nodejs.org/api/stream.html
-      // http://nodejs.org/api/child_process.html
-      // https://github.com/dominictarr/event-stream
-
-      // accepting streams is optional
       this.emit('error',
         new gutil.PluginError('analyze-css', 'Stream content is not supported'));
       return callback();
     }
 
-    // check if file.contents is a `Buffer`
     if (file.isBuffer()) {
-
-      // manipulate buffer in some way
-      // http://nodejs.org/api/buffer.html
-      file.contents = new Buffer(String(file.contents) + '\n' + param);
-
-      this.push(file);
-
+      new analyzer(String(file.contents), options, options.outDiretory ? _analyzeAndSaveReport : _analyzeAndChangeContent);
+    } else {
+      return callback();
     }
-    return callback();
   }
 
   return through.obj(analizeCss);

@@ -1,0 +1,113 @@
+{
+  "generator": "analyze-css v0.12.1",
+  "metrics": {
+    "base64Length": 0,
+    "redundantBodySelectors": 0,
+    "redundantChildNodesSelectors": 0,
+    "colors": 0,
+    "comments": 8,
+    "commentsLength": 256,
+    "complexSelectors": 0,
+    "complexSelectorsByAttribute": 0,
+    "duplicatedSelectors": 0,
+    "duplicatedProperties": 0,
+    "emptyRules": 0,
+    "expressions": 0,
+    "oldIEFixes": 0,
+    "imports": 0,
+    "importants": 0,
+    "mediaQueries": 0,
+    "notMinified": 1,
+    "multiClassesSelectors": 0,
+    "parsingErrors": 0,
+    "oldPropertyPrefixes": 0,
+    "propertyResets": 5,
+    "qualifiedSelectors": 0,
+    "specificityIdAvg": 0,
+    "specificityIdTotal": 0,
+    "specificityClassAvg": 1,
+    "specificityClassTotal": 2,
+    "specificityTagAvg": 0.5,
+    "specificityTagTotal": 1,
+    "selectors": 2,
+    "selectorLengthAvg": 1.5,
+    "selectorsByAttribute": 0,
+    "selectorsByClass": 2,
+    "selectorsById": 0,
+    "selectorsByPseudo": 0,
+    "selectorsByTag": 1,
+    "universalSelectors": 0,
+    "length": 581,
+    "rules": 2,
+    "declarations": 11
+  },
+  "offenders": {
+    "propertyResets": [
+      {
+        "message": ".flex >  span: \"flex\" resets \"flex-grow\" property set earlier",
+        "position": {
+          "start": {
+            "line": 4,
+            "column": 1
+          },
+          "end": {
+            "line": 16,
+            "column": 2
+          }
+        }
+      },
+      {
+        "message": ".flex >  span: \"flex\" resets \"flex-shrink\" property set earlier",
+        "position": {
+          "start": {
+            "line": 4,
+            "column": 1
+          },
+          "end": {
+            "line": 16,
+            "column": 2
+          }
+        }
+      },
+      {
+        "message": ".flex >  span: \"flex\" resets \"flex-basis\" property set earlier",
+        "position": {
+          "start": {
+            "line": 4,
+            "column": 1
+          },
+          "end": {
+            "line": 16,
+            "column": 2
+          }
+        }
+      },
+      {
+        "message": ".module: \"margin\" resets \"margin-right\" property set earlier",
+        "position": {
+          "start": {
+            "line": 18,
+            "column": 1
+          },
+          "end": {
+            "line": 32,
+            "column": 2
+          }
+        }
+      },
+      {
+        "message": ".module: \"padding\" resets \"padding-top\" property set earlier",
+        "position": {
+          "start": {
+            "line": 18,
+            "column": 1
+          },
+          "end": {
+            "line": 32,
+            "column": 2
+          }
+        }
+      }
+    ]
+  }
+}
