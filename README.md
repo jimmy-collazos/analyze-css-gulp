@@ -1,6 +1,8 @@
 # analyze-css-gulp
 
-> analyzeCss plugin for [gulp](https://github.com/wearefractal/gulp)
+> [analyze-css](https://github.com/macbre/analyze-css) plugin for [gulp](https://github.com/wearefractal/gulp)
+
+Gulp plugin that analyze your css with analyze-css and compare the results to a user-defined benchmark.
 
 ## Usage
 
@@ -10,28 +12,25 @@ First, install `analyze-css-gulp` as a development dependency:
 npm install --save-dev analyze-css-gulp
 ```
 
-Then, add it to your `gulpfile.js`:
+When you need proccess Object result of analyze:
 
 ```javascript
 var analyzeCss = require("analyze-css-gulp");
 
-gulp.src("./src/*.ext")
-	.pipe(analyzeCss({
-		msg: "Hello Gulp!"
-	}))
-	.pipe(gulp.dest("./dist"));
+gulp.src("./src/*.css")
+    .pipe(analyzeCss())
+    .pipe(myTaskProccessResult());
+
 ```
 
-## API
+If you need export result of analyze (JSON format) and need same source file in next pipe:
+```javascript
+var analyzeCss = require("analyze-css-gulp");
 
-### analyzeCss(options)
-
-#### options.msg
-Type: `String`  
-Default: `Hello World`
-
-The message you wish to attach to file.
-
+gulp.src("./src/*.css")
+    .pipe(analyzeCss({ outDiretory: "./dist" }))
+    .pipe(myCssTask());
+```
 
 ## License
 
