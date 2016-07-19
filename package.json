@@ -16,7 +16,8 @@
   "repository": "https://github.com/jimmy-collazos/analyze-css-gulp.git",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
-    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "lint": "eslint ."
   },
   "dependencies": {
     "analyze-css": "^0.12.1",
@@ -25,9 +26,7 @@
   },
   "devDependencies": {
     "coveralls": "*",
-    "eslint": "^3.0.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-react": "^5.2.2",
+    "eslint": "^3.1.1",
     "event-stream": "*",
     "istanbul": "*",
     "mocha": "*",

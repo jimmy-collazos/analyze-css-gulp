@@ -15,10 +15,10 @@ var gutil = require('gulp-util'),
 describe('analyze-css-gulp', function () {
   describe('errors: ', function() {
     var throwTypeofOptions = function(options) {
-        return function () {
-          (function(){ analyzeCss(options);}).should.throw('Options is not a Object');
-        };
+      return function () {
+        (function(){ analyzeCss(options);}).should.throw('Options is not a Object');
       };
+    };
     it('should throw error if set String like a options', throwTypeofOptions('string'));
     it('should throw error if set Boolean like a options', throwTypeofOptions(true));
     it('should throw error if set Number like a options', throwTypeofOptions(1));
@@ -46,7 +46,7 @@ describe('analyze-css-gulp', function () {
       });
 
       stream.on('data', function (newFile) {
-        newFile.contents.pipe(es.wait(function(err, data) {
+        newFile.contents.pipe(es.wait(function(err) {
           done(err);
         }));
       });
@@ -113,8 +113,8 @@ describe('analyze-css-gulp', function () {
 
     it('should create file when set `outDiretory` property', function (done) {
       var stream = analyzeCss({
-          outDiretory: outputFileDirectory
-        });
+        outDiretory: outputFileDirectory
+      });
 
       stream.on('error', should.ifError);
       stream.on('error', done);
@@ -130,8 +130,7 @@ describe('analyze-css-gulp', function () {
     });
 
     it('should filter `result.offenders` when create file with JSON result', function (done) {
-      var expectedFilepath = 'test/expected/super.json',
-        expectedFile = new gutil.File({
+      var expectedFile = new gutil.File({
           path: expectedFilepath,
           cwd: 'test/',
           base: 'test/expected',

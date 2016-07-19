@@ -5,12 +5,12 @@ var through = require('through2'),
   path = require('path');
 
 var metricFilterMap = function(offender) {
-    var position = offender.position && offender.position.start;
-    return offender.message + (position ? ' @ ' + position.line + ':' + position.column : '');
-  };
+  var position = offender.position && offender.position.start;
+  return offender.message + (position ? ' @ ' + position.line + ':' + position.column : '');
+};
 var metricFilter = function(metricName) {
-    this.offenders[metricName] = this.offenders[metricName].map(metricFilterMap);
-  };
+  this.offenders[metricName] = this.offenders[metricName].map(metricFilterMap);
+};
 
 module.exports = function (options) {
   'use strict';
@@ -25,7 +25,7 @@ module.exports = function (options) {
       },
       _saveErrorCallback = function(err) {
         if(err) {
-            return console.log(err);
+          throw err;
         }
       },
       _analyzeAndSaveReport = function(err, result) {
