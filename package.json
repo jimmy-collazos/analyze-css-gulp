@@ -13,6 +13,7 @@
     "email": "jimmy.collazos@gmail.com",
     "url": "https://github.com/jimmy-collazos"
   },
+  "main": "index.js",
   "repository": "https://github.com/jimmy-collazos/analyze-css-gulp.git",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
