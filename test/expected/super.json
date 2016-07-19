@@ -6,7 +6,7 @@
     "redundantChildNodesSelectors": 0,
     "colors": 1,
     "comments": 135,
-    "commentsLength": 11869,
+    "commentsLength": 5974,
     "complexSelectors": 0,
     "complexSelectorsByAttribute": 4,
     "duplicatedSelectors": 0,
@@ -37,7 +37,7 @@
     "selectorsByPseudo": 128,
     "selectorsByTag": 0,
     "universalSelectors": 2,
-    "length": 19482,
+    "length": 13642,
     "rules": 131,
     "declarations": 153
   },
@@ -53,13 +53,13 @@
       "[class*=\" icon2-\"] @ 10:1"
     ],
     "importants": [
-      "[class^=\"icon2-\"], [class*=\" icon2-\"] {font-family: 'Icon-BBVA-UNIFY' !important} @ 12:3",
+      "[class^=\"icon2-\"], [class*=\" icon2-\"] {font-family: 'Icon-mycompany-UNIFY' !important} @ 12:3",
       "[class^=\"icon2-\"], [class*=\" icon2-\"] {display: inline-block !important} @ 19:3",
       "[class^=\"icon2-\"].pgHeader, [class*=\" icon2-\"].pgHeader {z-index: 1 !important} @ 26:3",
       "[class^=\"icon2-\"].pgHeader, [class*=\" icon2-\"].pgHeader {width: 30px !important} @ 28:3",
       "[class^=\"icon2-\"].pgHeader, [class*=\" icon2-\"].pgHeader {color: #009EE5 !important} @ 29:3",
       "[class^=\"icon2-\"].pgHeader, [class*=\" icon2-\"].pgHeader {font-weight: normal !important} @ 31:3",
-      ".brand-auto {font-family: 'Icon-BBVA-UNIFY' !important} @ 36:3"
+      ".brand-auto {font-family: 'Icon-mycompany-UNIFY' !important} @ 36:3"
     ],
     "colors": [
       "#009ee5 (1 times)"

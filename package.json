@@ -1,16 +1,19 @@
 {
   "name": "analyze-css-gulp",
-  "version": "0.0.0",
-  "description": "A plugin for Gulp",
+  "version": "0.1.0",
+  "description": "Gulp plugin that analyze your css with analyze-css and compare the results to a user-defined benchmark",
   "keywords": [
-    "gulpplugin"
+    "gulp",
+    "gulp plugin",
+    "analyze-css",
+    "css"
   ],
   "author": {
     "name": "Jimmy Collazos",
     "email": "jimmy.collazos@gmail.com",
     "url": "https://github.com/jimmy-collazos"
   },
-  "repository": "jimmy-collazos/analyze-css-gulp",
+  "repository": "https://github.com/jimmy-collazos/analyze-css-gulp.git",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
     "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"

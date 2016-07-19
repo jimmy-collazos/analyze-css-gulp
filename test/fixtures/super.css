@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Icon-BBVA-UNIFY';
-  src: url("fonts/Icon-BBVA-UNIFY.eot?sswakm");
-  src: url("fonts/Icon-BBVA-UNIFY.eot?sswakm#iefix") format("embedded-opentype"), url("fonts/Icon-BBVA-UNIFY.ttf?sswakm") format("truetype"), url("fonts/Icon-BBVA-UNIFY.woff?sswakm") format("woff"), url("fonts/Icon-BBVA-UNIFY.svg?sswakm#Icon-BBVA-UNIFY") format("svg");
+  font-family: 'Icon-mycompany-UNIFY';
+  src: url("fonts/Icon-mycompany-UNIFY.eot?sswakm");
+  src: url("fonts/Icon-mycompany-UNIFY.eot?sswakm#iefix") format("embedded-opentype"), url("fonts/Icon-mycompany-UNIFY.ttf?sswakm") format("truetype"), url("fonts/Icon-mycompany-UNIFY.woff?sswakm") format("woff"), url("fonts/Icon-mycompany-UNIFY.svg?sswakm#Icon-mycompany-UNIFY") format("svg");
   font-weight: normal;
   font-style: normal; }
 
-/* line 14, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 14, webapp/css/scss/style_icons.scss */
 [class^="icon2-"], [class*=" icon2-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Icon-BBVA-UNIFY' !important;
+  font-family: 'Icon-mycompany-UNIFY' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -21,7 +21,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 29, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 29, webapp/css/scss/style_icons.scss */
 [class^="icon2-"].pgHeader, [class*=" icon2-"].pgHeader {
   z-index: 1 !important;
   height: 30px;
@@ -30,10 +30,10 @@
   font-size: 25px;
   font-weight: normal !important; }
 
-/* line 39, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 39, webapp/css/scss/style_icons.scss */
 .brand-auto {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Icon-BBVA-UNIFY' !important;
+  font-family: 'Icon-mycompany-UNIFY' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -44,514 +44,514 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 55, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 55, webapp/css/scss/style_icons.scss */
 .icon2-calendar-month:before {
   content: ""; }
 
-/* line 60, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 60, webapp/css/scss/style_icons.scss */
 .icon2-photos:before {
   content: ""; }
 
-/* line 65, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 65, webapp/css/scss/style_icons.scss */
 .icon2-not-available:before {
   content: ""; }
 
-/* line 70, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 70, webapp/css/scss/style_icons.scss */
 .icon2-check-circle:before {
   content: ""; }
 
-/* line 75, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 75, webapp/css/scss/style_icons.scss */
 .icon2-dropdown:before {
   content: ""; }
 
-/* line 80, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 80, webapp/css/scss/style_icons.scss */
 .icon2-aspa1:before {
   content: ""; }
 
-/* line 85, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 85, webapp/css/scss/style_icons.scss */
 .icon2-flecha-subheader:before {
   content: ""; }
 
-/* line 90, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 90, webapp/css/scss/style_icons.scss */
 .icon2-quiero1:before {
   content: ""; }
 
-/* line 95, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 95, webapp/css/scss/style_icons.scss */
 .icon2-quiero2:before {
   content: ""; }
 
-/* line 100, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 100, webapp/css/scss/style_icons.scss */
 .icon2-guarantees:before {
   content: ""; }
 
-/* line 105, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 105, webapp/css/scss/style_icons.scss */
 .icon2-deposit-checks:before {
   content: ""; }
 
-/* line 110, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 110, webapp/css/scss/style_icons.scss */
 .icon2-product-provision:before {
   content: ""; }
 
-/* line 115, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 115, webapp/css/scss/style_icons.scss */
 .icon2-insurance:before {
   content: ""; }
 
-/* line 120, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 120, webapp/css/scss/style_icons.scss */
 .icon2-euro-handled:before {
   content: ""; }
 
-/* line 125, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 125, webapp/css/scss/style_icons.scss */
 .icon2-income-transfer:before {
   content: ""; }
 
-/* line 130, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 130, webapp/css/scss/style_icons.scss */
 .icon2-change-currency:before {
   content: ""; }
 
-/* line 135, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 135, webapp/css/scss/style_icons.scss */
 .icon2-cash:before {
   content: ""; }
 
-/* line 140, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 140, webapp/css/scss/style_icons.scss */
 .icon2-sales-values:before {
   content: ""; }
 
-/* line 145, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 145, webapp/css/scss/style_icons.scss */
 .icon2-buys-values:before {
   content: ""; }
 
-/* line 150, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 150, webapp/css/scss/style_icons.scss */
 .icon2-income:before {
   content: ""; }
 
-/* line 155, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 155, webapp/css/scss/style_icons.scss */
 .icon2-bonus-financial-product:before {
   content: ""; }
 
-/* line 160, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 160, webapp/css/scss/style_icons.scss */
 .icon2-information:before {
   content: ""; }
 
-/* line 165, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 165, webapp/css/scss/style_icons.scss */
 .icon2-camera:before {
   content: ""; }
 
-/* line 170, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 170, webapp/css/scss/style_icons.scss */
 .icon2-arrow-open:before {
   content: ""; }
 
-/* line 175, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 175, webapp/css/scss/style_icons.scss */
 .icon2-arrow-close:before {
   content: ""; }
 
-/* line 180, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 180, webapp/css/scss/style_icons.scss */
 .icon2-points:before {
   content: ""; }
 
-/* line 185, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 185, webapp/css/scss/style_icons.scss */
 .icon2-watch:before {
   content: ""; }
 
-/* line 190, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 190, webapp/css/scss/style_icons.scss */
 .icon2-five-pick-star:before {
   content: ""; }
 
-/* line 195, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 195, webapp/css/scss/style_icons.scss */
 .icon2-man-walk:before {
   content: ""; }
 
-/* line 200, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 200, webapp/css/scss/style_icons.scss */
 .icon2-graphic-bars:before {
   content: ""; }
 
-/* line 205, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 205, webapp/css/scss/style_icons.scss */
 .icon2-graphic-bars2:before {
   content: ""; }
 
-/* line 210, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 210, webapp/css/scss/style_icons.scss */
 .icon2-k07:before {
   content: ""; }
 
-/* line 215, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 215, webapp/css/scss/style_icons.scss */
 .icon2-graphic-lines:before {
   content: ""; }
 
-/* line 220, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 220, webapp/css/scss/style_icons.scss */
 .icon2-paysheet-ingress:before {
   content: ""; }
 
-/* line 225, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 225, webapp/css/scss/style_icons.scss */
 .icon2-see-results:before {
   content: ""; }
 
-/* line 230, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 230, webapp/css/scss/style_icons.scss */
 .icon2-calendar:before {
   content: ""; }
 
-/* line 235, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 235, webapp/css/scss/style_icons.scss */
 .icon2-edit:before {
   content: ""; }
 
-/* line 240, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 240, webapp/css/scss/style_icons.scss */
 .icon2-delete:before {
   content: ""; }
 
-/* line 245, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 245, webapp/css/scss/style_icons.scss */
 .icon2-calculator:before {
   content: ""; }
 
-/* line 250, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 250, webapp/css/scss/style_icons.scss */
 .icon2-house-search:before {
   content: ""; }
 
-/* line 255, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 255, webapp/css/scss/style_icons.scss */
 .icon2-add-budget:before {
   content: ""; }
 
-/* line 260, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 260, webapp/css/scss/style_icons.scss */
 .icon2-dividend-income:before {
   content: ""; }
 
-/* line 265, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 265, webapp/css/scss/style_icons.scss */
 .icon2-s05:before {
   content: ""; }
 
-/* line 270, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
-.icon2-officeBBVA:before {
+/* line 270, webapp/css/scss/style_icons.scss */
+.icon2-officemycompany:before {
   content: ""; }
 
-/* line 275, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 275, webapp/css/scss/style_icons.scss */
 .icon2-check3:before {
   content: ""; }
 
-/* line 280, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 280, webapp/css/scss/style_icons.scss */
 .icon2-others:before {
   content: ""; }
 
-/* line 285, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 285, webapp/css/scss/style_icons.scss */
 .icon2-health:before {
   content: ""; }
 
-/* line 290, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 290, webapp/css/scss/style_icons.scss */
 .icon2-shopping:before {
   content: ""; }
 
-/* line 295, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 295, webapp/css/scss/style_icons.scss */
 .icon2-home:before {
   content: ""; }
 
-/* line 300, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 300, webapp/css/scss/style_icons.scss */
 .icon2-transport:before {
   content: ""; }
 
-/* line 305, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 305, webapp/css/scss/style_icons.scss */
 .icon2-ONG:before {
   content: ""; }
 
-/* line 310, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 310, webapp/css/scss/style_icons.scss */
 .icon2-education:before {
   content: ""; }
 
-/* line 315, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 315, webapp/css/scss/style_icons.scss */
 .icon2-Savings-investment:before {
   content: ""; }
 
-/* line 320, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 320, webapp/css/scss/style_icons.scss */
 .icon2-feedback:before {
   content: ""; }
 
-/* line 325, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 325, webapp/css/scss/style_icons.scss */
 .icon2-no-category:before {
   content: ""; }
 
-/* line 330, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 330, webapp/css/scss/style_icons.scss */
 .icon2-toyota:before {
   content: ""; }
 
-/* line 335, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 335, webapp/css/scss/style_icons.scss */
 .icon2-volkswagen:before {
   content: ""; }
 
-/* line 340, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 340, webapp/css/scss/style_icons.scss */
 .icon2-seat:before {
   content: ""; }
 
-/* line 345, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 345, webapp/css/scss/style_icons.scss */
 .icon2-peugeot:before {
   content: ""; }
 
-/* line 350, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 350, webapp/css/scss/style_icons.scss */
 .icon2-renault:before {
   content: ""; }
 
-/* line 355, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 355, webapp/css/scss/style_icons.scss */
 .icon2-opel:before {
   content: ""; }
 
-/* line 360, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 360, webapp/css/scss/style_icons.scss */
 .icon2-mercedes:before {
   content: ""; }
 
-/* line 365, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 365, webapp/css/scss/style_icons.scss */
 .icon2-daewoo:before {
   content: ""; }
 
-/* line 370, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 370, webapp/css/scss/style_icons.scss */
 .icon2-honda:before {
   content: ""; }
 
-/* line 375, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 375, webapp/css/scss/style_icons.scss */
 .icon2-nissan:before {
   content: ""; }
 
-/* line 380, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 380, webapp/css/scss/style_icons.scss */
 .icon2-hyundai:before {
   content: ""; }
 
-/* line 385, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 385, webapp/css/scss/style_icons.scss */
 .icon2-fiat:before {
   content: ""; }
 
-/* line 390, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 390, webapp/css/scss/style_icons.scss */
 .icon2-ford:before {
   content: ""; }
 
-/* line 395, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 395, webapp/css/scss/style_icons.scss */
 .icon2-citroen:before {
   content: ""; }
 
-/* line 400, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 400, webapp/css/scss/style_icons.scss */
 .icon2-kia:before {
   content: ""; }
 
-/* line 405, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 405, webapp/css/scss/style_icons.scss */
 .icon2-skoda:before {
   content: ""; }
 
-/* line 410, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 410, webapp/css/scss/style_icons.scss */
 .icon2-audi:before {
   content: ""; }
 
-/* line 415, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 415, webapp/css/scss/style_icons.scss */
 .icon2-bmw:before {
   content: ""; }
 
-/* line 420, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 420, webapp/css/scss/style_icons.scss */
 .icon2-volvo:before {
   content: ""; }
 
-/* line 425, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 425, webapp/css/scss/style_icons.scss */
 .icon2-beeper:before {
   content: ""; }
 
-/* line 430, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 430, webapp/css/scss/style_icons.scss */
 .icon2-campane:before {
   content: ""; }
 
-/* line 435, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 435, webapp/css/scss/style_icons.scss */
 .icon2-disconnection:before {
   content: ""; }
 
-/* line 440, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 440, webapp/css/scss/style_icons.scss */
 .icon2-task:before {
   content: ""; }
 
-/* line 445, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 445, webapp/css/scss/style_icons.scss */
 .icon2-client-support:before {
   content: ""; }
 
-/* line 450, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
-.icon2-managgerBbva:before {
+/* line 450, webapp/css/scss/style_icons.scss */
+.icon2-managgermycompany:before {
   content: ""; }
 
-/* line 455, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 455, webapp/css/scss/style_icons.scss */
 .icon2-send-call01:before {
   content: ""; }
 
-/* line 460, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 460, webapp/css/scss/style_icons.scss */
 .icon2-leisure:before {
   content: ""; }
 
-/* line 465, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 465, webapp/css/scss/style_icons.scss */
 .icon2-add-photo:before {
   content: ""; }
 
-/* line 470, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 470, webapp/css/scss/style_icons.scss */
 .icon2-cat-beauty-2:before {
   content: ""; }
 
-/* line 475, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 475, webapp/css/scss/style_icons.scss */
 .icon2-heart:before {
   content: ""; }
 
-/* line 480, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 480, webapp/css/scss/style_icons.scss */
 .icon2-express-payment:before {
   content: ""; }
 
-/* line 485, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 485, webapp/css/scss/style_icons.scss */
 .icon2-excel:before {
   content: ""; }
 
-/* line 490, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 490, webapp/css/scss/style_icons.scss */
 .icon2-update:before {
   content: ""; }
 
-/* line 495, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 495, webapp/css/scss/style_icons.scss */
 .icon2-contacts:before {
   content: ""; }
 
-/* line 500, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 500, webapp/css/scss/style_icons.scss */
 .icon2-security:before {
   content: ""; }
 
-/* line 505, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 505, webapp/css/scss/style_icons.scss */
 .icon2-favorite:before {
   content: ""; }
 
-/* line 510, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 510, webapp/css/scss/style_icons.scss */
 .icon2-home-insurance:before {
   content: ""; }
 
-/* line 515, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 515, webapp/css/scss/style_icons.scss */
 .icon2-show:before {
   content: ""; }
 
-/* line 520, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 520, webapp/css/scss/style_icons.scss */
 .icon2-print:before {
   content: ""; }
 
-/* line 525, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 525, webapp/css/scss/style_icons.scss */
 .icon2-post-mail:before {
   content: ""; }
 
-/* line 530, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 530, webapp/css/scss/style_icons.scss */
 .icon2-secure-mail:before {
   content: ""; }
 
-/* line 535, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 535, webapp/css/scss/style_icons.scss */
 .icon2-virtual-mail:before {
   content: ""; }
 
-/* line 540, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 540, webapp/css/scss/style_icons.scss */
 .icon2-info:before {
   content: ""; }
 
-/* line 545, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 545, webapp/css/scss/style_icons.scss */
 .icon2-send-call02:before {
   content: ""; }
 
-/* line 550, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 550, webapp/css/scss/style_icons.scss */
 .icon2-diary:before {
   content: ""; }
 
-/* line 555, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 555, webapp/css/scss/style_icons.scss */
 .icon2-download:before {
   content: ""; }
 
-/* line 560, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 560, webapp/css/scss/style_icons.scss */
 .icon2-mail:before {
   content: ""; }
 
-/* line 565, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 565, webapp/css/scss/style_icons.scss */
 .icon2-alert:before {
   content: ""; }
 
-/* line 570, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 570, webapp/css/scss/style_icons.scss */
 .icon2-pdf:before {
   content: ""; }
 
-/* line 575, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 575, webapp/css/scss/style_icons.scss */
 .icon2-client:before {
   content: ""; }
 
-/* line 580, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 580, webapp/css/scss/style_icons.scss */
 .icon2-house:before {
   content: ""; }
 
-/* line 585, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 585, webapp/css/scss/style_icons.scss */
 .icon2-settings:before {
   content: ""; }
 
-/* line 590, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 590, webapp/css/scss/style_icons.scss */
 .icon2-mobile:before {
   content: ""; }
 
-/* line 595, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 595, webapp/css/scss/style_icons.scss */
 .icon2-help:before {
   content: ""; }
 
-/* line 600, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 600, webapp/css/scss/style_icons.scss */
 .icon2-manager:before {
   content: ""; }
 
-/* line 605, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 605, webapp/css/scss/style_icons.scss */
 .icon2-portfolio:before {
   content: ""; }
 
-/* line 610, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 610, webapp/css/scss/style_icons.scss */
 .icon2-mortgages-loans:before {
   content: ""; }
 
-/* line 615, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 615, webapp/css/scss/style_icons.scss */
 .icon2-deposit:before {
   content: ""; }
 
-/* line 620, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 620, webapp/css/scss/style_icons.scss */
 .icon2-debits:before {
   content: ""; }
 
-/* line 625, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 625, webapp/css/scss/style_icons.scss */
 .icon2-documents:before {
   content: ""; }
 
-/* line 630, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 630, webapp/css/scss/style_icons.scss */
 .icon2-search:before {
   content: ""; }
 
-/* line 635, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 635, webapp/css/scss/style_icons.scss */
 .icon2-taxes:before {
   content: ""; }
 
-/* line 640, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 640, webapp/css/scss/style_icons.scss */
 .icon2-pendient-category:before {
   content: ""; }
 
-/* line 645, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 645, webapp/css/scss/style_icons.scss */
 .icon2-land-rover:before {
   content: ""; }
 
-/* line 650, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 650, webapp/css/scss/style_icons.scss */
 .icon2-alfa-romeo:before {
   content: ""; }
 
-/* line 655, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 655, webapp/css/scss/style_icons.scss */
 .icon2-chevrolet-gm:before {
   content: ""; }
 
-/* line 660, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 660, webapp/css/scss/style_icons.scss */
 .icon2-mazda:before {
   content: ""; }
 
-/* line 665, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 665, webapp/css/scss/style_icons.scss */
 .icon2-mini:before {
   content: ""; }
 
-/* line 670, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 670, webapp/css/scss/style_icons.scss */
 .icon2-mitsubishi:before {
   content: ""; }
 
-/* line 675, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 675, webapp/css/scss/style_icons.scss */
 .icon2-suzuki:before {
   content: ""; }
 
-/* line 680, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 680, webapp/css/scss/style_icons.scss */
 .icon2-mobile2:before {
   content: ""; }
 
-/* line 685, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 685, webapp/css/scss/style_icons.scss */
 .icon2-neighborhood:before {
   content: ""; }
 
-/* line 690, /Users/acido/laboratory/kqof/WebApp/src/main/webapp/css/scss/style_icons.scss */
+/* line 690, webapp/css/scss/style_icons.scss */
 .icon2-popular-place:before {
   content: ""; }
