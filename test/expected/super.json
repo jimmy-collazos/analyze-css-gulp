@@ -1,5 +1,5 @@
 {
-  "generator": "analyze-css v0.12.1",
+  "generator": "analyze-css v0.12.5",
   "metrics": {
     "base64Length": 0,
     "redundantBodySelectors": 0,
@@ -8,7 +8,6 @@
     "comments": 135,
     "commentsLength": 5974,
     "complexSelectors": 0,
-    "complexSelectorsByAttribute": 4,
     "duplicatedSelectors": 0,
     "duplicatedProperties": 0,
     "emptyRules": 0,
@@ -36,22 +35,11 @@
     "selectorsById": 0,
     "selectorsByPseudo": 128,
     "selectorsByTag": 0,
-    "universalSelectors": 2,
     "length": 13642,
     "rules": 131,
     "declarations": 153
   },
   "offenders": {
-    "complexSelectorsByAttribute": [
-      "[class^=\"icon2-\"] @ 10:1",
-      "[class*=\" icon2-\"] @ 10:1",
-      "[class^=\"icon2-\"].pgHeader @ 25:1",
-      "[class*=\" icon2-\"].pgHeader @ 25:1"
-    ],
-    "universalSelectors": [
-      "[class^=\"icon2-\"] @ 10:1",
-      "[class*=\" icon2-\"] @ 10:1"
-    ],
     "importants": [
       "[class^=\"icon2-\"], [class*=\" icon2-\"] {font-family: 'Icon-mycompany-UNIFY' !important} @ 12:3",
       "[class^=\"icon2-\"], [class*=\" icon2-\"] {display: inline-block !important} @ 19:3",
