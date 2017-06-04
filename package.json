@@ -1,6 +1,6 @@
 {
-  "name": "analyze-css-gulp",
-  "version": "0.1.0",
+  "name": "gulp-analyze-css",
+  "version": "0.2.0",
   "description": "Gulp plugin that analyze your css with analyze-css and compare the results to a user-defined benchmark",
   "keywords": [
     "gulp",
@@ -14,14 +14,17 @@
     "url": "https://github.com/jimmy-collazos"
   },
   "main": "index.js",
-  "repository": "https://github.com/jimmy-collazos/analyze-css-gulp.git",
+  "repository": "https://github.com/jimmy-collazos/gulp-analyze-css.git",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
     "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "generate-expected-propertyResets": "analyze-css -p --file test/fixtures/propertyResets.css > test/expected/propertyResets.json && echo 'updated: test/expected/propertyResets.json'",
+    "generate-expected-super": "analyze-css -p --file test/fixtures/super.css > test/expected/super.json && echo 'updated: test/expected/super.json'",
+    "generate-expected": "npm run generate-expected-propertyResets && npm run generate-expected-super"
   },
   "dependencies": {
-    "analyze-css": "^0.12.1",
+    "analyze-css": "0.12.5",
     "gulp-util": "~2.2.0",
     "through2": "*"
   },

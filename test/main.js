@@ -56,7 +56,7 @@ describe('analyze-css-gulp', function () {
     });
   });
 
-  describe('Analize and transform stream: ', function () {
+  describe('Analize and transform: ', function () {
     it('should analize and return Object result via buffer', function (done) {
 
       var expectedFile = new gutil.File({
