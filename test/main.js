@@ -1,16 +1,16 @@
 /*global describe, it*/
 'use strict';
 
-var fs = require('fs'),
-  es = require('event-stream'),
-  should = require('should');
+const fs = require('fs');
+const es = require('event-stream');
+const should = require('should');
 
 require('mocha');
 
 delete require.cache[require.resolve('../')];
 
-var gutil = require('gulp-util'),
-  analyzeCss = require('../');
+const gutil = require('gulp-util');
+const analyzeCss = require('../');
 
 describe('analyze-css-gulp', function () {
   describe('errors: ', function() {
